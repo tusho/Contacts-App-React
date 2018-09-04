@@ -48,7 +48,7 @@ class ListContacts extends Component {
           />
           <a
             href='#create'
-            onClick = {() => {}}
+            onClick = {this.props.onNavigate}
             className = 'add-contact'
           >Add Contact</a>
         </div>
